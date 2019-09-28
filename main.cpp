@@ -2,8 +2,13 @@
 #include "Animal.hpp"
 #include "Cat.hpp"
 #include "Dog.hpp"
+#include "Lion.hpp"
+#include "Tiger.hpp"
+#include "Wolf.hpp"
+#include "Elephant.hpp"
+#include "Hippo.hpp"
+#include "Rhino.hpp"
 
-//hi
 using namespace std;
 
 int main()
@@ -21,6 +26,10 @@ int main()
     for(int i = 0; i < 20; i++){
         cat->makeNoise();
     }
+
+    Animal* wolf = new Wolf("Wolfie");
+    Animal* tiger = new Tiger("Tigger");
+    Animal* hippo = new Hippo("Harry");
 
     return 0;
 }
