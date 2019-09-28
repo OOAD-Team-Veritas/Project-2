@@ -5,9 +5,12 @@
 
 class Feline : public Animal{
 public:
-    Feline(string inputName);
+    Feline(string inputName) : Animal(inputName){}
 
-    void roam();
+    void roam(){
+        state = "prowling";
+        cout<<name + " the " + animalType + " is " + state <<endl;
+    }
 };
 
 #endif // FELINE_HPP

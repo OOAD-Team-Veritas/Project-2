@@ -5,8 +5,11 @@
 
 class Wolf : public Canine{
 public:
-    Wolf(string inputName);
-    void makeNoise();
+    Wolf(string inputName) : Canine(inputName){}
+
+    void makeNoise(){
+        cout<<"Howwooooo! - said " + name + " the Wolf" <<endl;
+    }
 };
 
 #endif // WOLF_HPP

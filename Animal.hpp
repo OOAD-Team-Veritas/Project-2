@@ -9,18 +9,39 @@ using namespace std;
 class Animal{
 
 public:
-    Animal(string inputName);
+    Animal(string inputName){
+        name = inputName;
+        state = "";
+        animalType = "";
+    }
 
-    string getName();
-    string getState();
-    void wakeUp();
-    void sleep();
+    string getName(){
+        return name;
+    }
+
+    string getState(){
+        return state;
+    }
+
+    void wakeUp(){
+        state = "awake";
+        cout<<name + " the " + animalType + " is " + state <<endl;
+    }
+    
+    void sleep(){
+        state = "sleeping";
+        cout<<name + " the " + animalType + " is " + state <<endl;
+    }
+
+    void eat(){
+        state = "eating";
+        cout<<name + " the " + animalType + " is " + state <<endl;
+
+    }
 
     //Pure virtual functions
     virtual void makeNoise() = 0;
     virtual void roam() = 0;
-
-    void eat();
 
 protected:
     string name;
@@ -28,8 +49,5 @@ protected:
     //What the animal is doing right now (kind of like a state machine)
     string state;
 };
-
-
-
 
 #endif // ANIMAL_HPP

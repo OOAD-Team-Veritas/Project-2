@@ -6,9 +6,14 @@
 class Dog : public Canine{
 public:
 
-    Dog(string inputName);
+    Dog(string inputName) : Canine(inputName){
+        animalType = "Dog";
+    }
 
-    void makeNoise();
+    void makeNoise(){
+        cout<<"Woof! - said " + name + " the Dog" <<endl;
+    }
+
 };
 
 #endif // DOG_HPP

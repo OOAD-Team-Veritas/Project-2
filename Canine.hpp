@@ -5,9 +5,12 @@
 
 class Canine : public Animal{
 public:
-    Canine(string inputName);
+    Canine(string inputName):Animal(inputName){}
 
-    void roam();
+    void roam(){
+        state = "trotting";
+        cout<<name + " the " + animalType + " is " + state <<endl;
+    }
 };
 
 #endif // CANINE_HPP
