@@ -1,10 +1,26 @@
 #include <iostream>
-#include "Animal.cpp"
+#include "Animal.hpp"
+#include "Cat.hpp"
+#include "Dog.hpp"
+
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    //We have to declare an Animal pointer
+    Animal* dog = new Dog("Dude");
+
+    //-> is the dereference operator
+    dog->makeNoise();
+    dog->eat();
+    dog->roam();
+
+    Animal* cat = new Cat("Corey");
+
+    for(int i = 0; i < 20; i++){
+        cat->makeNoise();
+    }
+
     return 0;
 }
