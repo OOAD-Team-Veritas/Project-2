@@ -8,28 +8,32 @@
 #include "Elephant.hpp"
 #include "Hippo.hpp"
 #include "Rhino.hpp"
+#include "Zoo.h"
 
 using namespace std;
 
 int main()
 {
-    //We have to declare an Animal pointer
-    Animal* dog = new Dog("Dude");
+     //Set up our Zoo
+    Zoo theOOPZoo;
 
-    //-> is the dereference operator
-    dog->makeNoise();
-    dog->eat();
-    dog->roam();
-
-    Animal* cat = new Cat("Corey");
-
-    for(int i = 0; i < 20; i++){
-        cat->makeNoise();
-    }
-
-    Animal* wolf = new Wolf("Wolfie");
-    Animal* tiger = new Tiger("Tigger");
-    Animal* hippo = new Hippo("Harry");
+    //Fill up Zoo with animals
+    theOOPZoo.addAnimal(new Cat("Cory"));
+    theOOPZoo.addAnimal(new Cat("Cam"));
+    theOOPZoo.addAnimal(new Tiger("Terry"));
+    theOOPZoo.addAnimal(new Tiger("Tim"));
+    theOOPZoo.addAnimal(new Lion("Lenny"));
+    theOOPZoo.addAnimal(new Lion("Lisa"));
+    theOOPZoo.addAnimal(new Hippo("Harry"));
+    theOOPZoo.addAnimal(new Hippo("Henrietta"));
+    theOOPZoo.addAnimal(new Rhino("Ryan"));
+    theOOPZoo.addAnimal(new Rhino("Rachel"));
+    theOOPZoo.addAnimal(new Elephant("Eli"));
+    theOOPZoo.addAnimal(new Elephant("Emmy"));
+    theOOPZoo.addAnimal(new Dog("Dougie"));
+    theOOPZoo.addAnimal(new Dog("Dante"));
+    theOOPZoo.addAnimal(new Wolf("Wolfgang"));
+    theOOPZoo.addAnimal(new Wolf("Wren"));
 
     return 0;
 }
