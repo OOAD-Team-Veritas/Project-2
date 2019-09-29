@@ -5,7 +5,8 @@
 
 class Pachyderm : public Animal{
 public:
-    Pachyderm(string inputName) : Animal(inputName){}
+
+    virtual ~Pachyderm(){};
 
     void roam(){
         state = "roaming";

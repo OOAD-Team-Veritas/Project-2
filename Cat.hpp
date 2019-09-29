@@ -14,11 +14,14 @@
 #include <chrono>
 
 class Cat : public Feline{
-    
+
 public:
-    Cat(string inputName) : Feline(inputName){
+    Cat(string inputName){
+        name = inputName;
         animalType = "Cat";
     }
+
+    ~Cat(){};
 
     void makeNoise(){
         randomBehavior();

@@ -9,11 +9,13 @@ using namespace std;
 class Animal{
 
 public:
-    Animal(string inputName){
-        name = inputName;
+    Animal(){
+        name = "";
         state = "";
         animalType = "";
     }
+
+    virtual ~Animal(){};
 
     string getName(){
         return name;
@@ -25,17 +27,17 @@ public:
 
     void wakeUp(){
         state = "awake";
-        cout<<name + " the " + animalType + " is " + state <<endl;
+        cout<<name << " the " << animalType << " is " <<state <<endl;
     }
-    
+
     void sleep(){
         state = "sleeping";
-        cout<<name + " the " + animalType + " is " + state <<endl;
+        cout<<name << " the " << animalType << " is " <<state <<endl;
     }
 
     void eat(){
         state = "eating";
-        cout<<name + " the " + animalType + " is " + state <<endl;
+        cout<<name << " the " << animalType << " is " <<state <<endl;
 
     }
 

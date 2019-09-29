@@ -6,9 +6,12 @@
 class Tiger : public Feline{
 
 public:
-    Tiger(string inputName) : Feline(inputName){
+    Tiger(string inputName){
+        name = inputName;
         animalType = "Tiger";
     }
+
+    ~Tiger(){};
 
     void makeNoise(){
         cout<<"RRrrrr! - said " + name + " the Tiger" <<endl;

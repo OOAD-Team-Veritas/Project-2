@@ -9,6 +9,7 @@
 #include "Hippo.hpp"
 #include "Rhino.hpp"
 #include "Zoo.h"
+#include "ZooKeeper.h"
 
 using namespace std;
 
@@ -34,6 +35,35 @@ int main()
     theOOPZoo.addAnimal(new Dog("Dante"));
     theOOPZoo.addAnimal(new Wolf("Wolfgang"));
     theOOPZoo.addAnimal(new Wolf("Wren"));
+
+    ZooKeeper griffin("Griffin Keyes", theOOPZoo);
+
+    /*
+    Animal* cat = new Cat("Corey");
+    Animal* hippo = new Hippo("Harry");
+    Animal* wolf = new Wolf("Wren");
+    Animal* tiger = new Tiger("Tigger");
+    Animal* lion = new Lion("Scar");
+    Animal* dog = new Dog("Doodoo");
+    Animal* elephant = new Elephant("Eli");
+    Animal* rhino = new Rhino("Ryan");
+    delete cat;
+    delete hippo;
+    delete wolf;
+    delete tiger;
+    delete lion;
+    delete dog;
+    delete elephant;
+    delete rhino;
+    */
+
+    //Open the zoo!
+    griffin.openZoo();
+
+    //griffin.wakeUpAnimals();
+
+    //Manually deleting the Animals...
+    theOOPZoo.deleteAllAnimals();
 
     return 0;
 }

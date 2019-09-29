@@ -1,11 +1,11 @@
 #ifndef ZOO_H
 #define ZOO_H
 
-#include <list>
+#include <vector>
 
 class Zoo{
 public:
-    list<Animal*> zooAnimals;
+    vector<Animal*> zooAnimals;
 
     Zoo(){
         //Zoo is closed at first
@@ -13,14 +13,27 @@ public:
     }
 
     ~Zoo(){
-        list<Animal*>::iterator it;
-        for (it = zooAnimals.begin(); it != zooAnimals.end(); ++it){
-            delete *it;
+        cout<<"Destructor was called!\n";
+    }
+
+    void printAllAnimals(){
+        for(unsigned int i = 0; i < zooAnimals.size(); i++){
+            Animal* temp = zooAnimals[i];
+            cout<<temp->getName() <<endl;
         }
     }
 
+
+    void deleteAllAnimals(){
+        for (auto p : zooAnimals){
+            if(p != nullptr)
+                delete p;
+        }
+
+    }
+
     void addAnimal(Animal* newAnimal){
-        //zooAnimals.push_back(newAnimal);
+        zooAnimals.push_back(newAnimal);
     }
 
     void openZoo(){

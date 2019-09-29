@@ -5,7 +5,8 @@
 
 class Feline : public Animal{
 public:
-    Feline(string inputName) : Animal(inputName){}
+
+    virtual ~Feline(){};
 
     void roam(){
         state = "prowling";
