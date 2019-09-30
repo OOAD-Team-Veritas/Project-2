@@ -1,0 +1,86 @@
+Zookeeper Griffin Keyes is opening the Zoo!
+Cory the Cat is awake
+Cam the Cat is awake
+Terry the Tiger is awake
+Tim the Tiger is awake
+Lenny the Lion is awake
+Lisa the Lion is awake
+Harry the Hippo is awake
+Henrietta the Hippo is awake
+Ryan the Rhino is awake
+Rachel the Rhino is awake
+Eli the Rhino is awake
+Emmy the Rhino is awake
+Dougie the Dog is awake
+Dante the Dog is awake
+Wolfgang the Wolf is awake
+Wren the Wolf is awake
+Zookeeper Griffin Keyes is now doing roll call!
+Cory the Cat is sleeping
+Cam the Cat is sleeping
+RRrrrr! - said Terry the Tiger
+RRrrrr! - said Tim the Tiger
+Grraaaauuuu! - said Lenny the Lion
+Grraaaauuuu! - said Lisa the Lion
+Snrrrt! - said Harry the Hippo
+Snrrrt! - said Henrietta the Hippo
+Gruunt! - said Ryan the Rhino
+Gruunt! - said Rachel the Rhino
+Gruunt! - said Eli the Rhino
+Gruunt! - said Emmy the Rhino
+Woof! - said Dougie the Dog
+Woof! - said Dante the Dog
+Howwooooo! - said Wolfgang the Wolf
+Howwooooo! - said Wren the Wolf
+Zookeeper Griffin Keyes is feeding Animals!
+Cory the Cat is eating
+Cam the Cat is eating
+Terry the Tiger is eating
+Tim the Tiger is eating
+Lenny the Lion is eating
+Lisa the Lion is eating
+Harry the Hippo is eating
+Henrietta the Hippo is eating
+Ryan the Rhino is eating
+Rachel the Rhino is eating
+Eli the Rhino is eating
+Emmy the Rhino is eating
+Dougie the Dog is eating
+Dante the Dog is eating
+Wolfgang the Wolf is eating
+Wren the Wolf is eating
+Zookeeper Griffin Keyes is exercising Animals!
+Cory the Cat is prowling
+Cam the Cat is prowling
+Terry the Tiger is prowling
+Tim the Tiger is prowling
+Lenny the Lion is prowling
+Lisa the Lion is prowling
+Harry the Hippo is roaming
+Henrietta the Hippo is roaming
+Ryan the Rhino is roaming
+Rachel the Rhino is roaming
+Eli the Rhino is roaming
+Emmy the Rhino is roaming
+Dougie the Dog is trotting
+Dante the Dog is trotting
+Wolfgang the Wolf is trotting
+Wren the Wolf is trotting
+Zookeeper Griffin Keyes is closing the Zoo.
+Cory the Cat is sleeping
+Cam the Cat is sleeping
+Terry the Tiger is sleeping
+Tim the Tiger is sleeping
+Lenny the Lion is sleeping
+Lisa the Lion is sleeping
+Harry the Hippo is sleeping
+Henrietta the Hippo is sleeping
+Ryan the Rhino is sleeping
+Rachel the Rhino is sleeping
+Eli the Rhino is sleeping
+Emmy the Rhino is sleeping
+Dougie the Dog is sleeping
+Dante the Dog is sleeping
+Wolfgang the Wolf is sleeping
+Wren the Wolf is sleeping
+Zoo is now closed!

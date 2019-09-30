@@ -10,12 +10,21 @@
 #include "Rhino.hpp"
 #include "Zoo.h"
 #include "ZooKeeper.h"
+#include <fstream>
 
 using namespace std;
 
 int main()
 {
-     //Set up our Zoo
+
+    /*
+    Redirect cout to file
+    Source: https://stackoverflow.com/questions/10150468/how-to-redirect-cin-and-cout-to-files
+    */
+    ofstream out("out.txt");
+    cout.rdbuf(out.rdbuf()); //redirect std::cout to out.txt!
+
+    //Set up our Zoo
     Zoo* theOOPZoo = new Zoo();
 
     //Fill up Zoo with animals
