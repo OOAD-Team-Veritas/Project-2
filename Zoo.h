@@ -13,7 +13,10 @@ public:
     }
 
     ~Zoo(){
-        cout<<"Destructor was called!\n";
+         for (auto p : zooAnimals){
+            if(p != nullptr)
+                delete p;
+        }
     }
 
     void printAllAnimals(){
@@ -29,7 +32,6 @@ public:
             if(p != nullptr)
                 delete p;
         }
-
     }
 
     void addAnimal(Animal* newAnimal){
@@ -42,6 +44,7 @@ public:
 
     void closeZoo(){
         this->zooOperations = false;
+        cout<<"Zoo is now closed!\n";
     }
 
 private:

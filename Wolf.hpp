@@ -7,6 +7,7 @@ class Wolf : public Canine{
 public:
     Wolf(string inputName){
         name = inputName;
+        this->animalType = "Wolf";
     }
 
     ~Wolf(){};
