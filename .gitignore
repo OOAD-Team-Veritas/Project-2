@@ -1,0 +1,13 @@
+bin/Debug/Project-2.exe
+obj/Debug/main.o
+obj/Debug/Dog.o
+obj/Debug/Canine.o
+obj/Debug/Animal.o
+Project-2.layout
+Project-2.depend
+Project-2.cbp
+obj/Debug/Cat.o
+obj/Debug/Feline.o
+obj/Debug/Wolf.o
+.vscode/settings.json
+.exe
