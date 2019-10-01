@@ -1,11 +1,14 @@
 #include <iostream>
 #include <string>
+#include "RoamBehavior.cpp"
 
 using namespace std;
 
 class Animal{
 
 public:
+    RoamBehavior roamBehavior;
+
     Animal(string inputName){
         name = inputName;
         state = "";
