@@ -16,8 +16,8 @@ Dante the Dog is awake
 Wolfgang the Wolf is awake
 Wren the Wolf is awake
 Zookeeper Griffin Keyes is now doing roll call!
-Cory the Cat is sleeping
-Cam the Cat is sleeping
+Meaow! - said Cory the Cat
+Meaow! - said Cam the Cat
 RRrrrr! - said Terry the Tiger
 RRrrrr! - said Tim the Tiger
 Grraaaauuuu! - said Lenny the Lion
@@ -26,8 +26,8 @@ Snrrrt! - said Harry the Hippo
 Snrrrt! - said Henrietta the Hippo
 Gruunt! - said Ryan the Rhino
 Gruunt! - said Rachel the Rhino
-Gruunt! - said Eli the Rhino
-Gruunt! - said Emmy the Rhino
+Truuumpet! - said Eli the Elephant
+Truuumpet! - said Emmy the Elephant
 Woof! - said Dougie the Dog
 Woof! - said Dante the Dog
 Howwooooo! - said Wolfgang the Wolf

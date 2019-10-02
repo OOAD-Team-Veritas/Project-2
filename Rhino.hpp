@@ -2,6 +2,7 @@
 #define RHINO_HPP
 
 #include "Pachyderm.hpp"
+#include "RhinoNoise.hpp"
 
 class Rhino : public Pachyderm{
 
@@ -9,13 +10,12 @@ public:
     Rhino(string inputName){
         name = inputName;
         animalType = "Rhino";
+        this->noiseBehavior = new RhinoNoise();
     }
 
     ~Rhino(){};
 
-    void makeNoise(){
-        cout<<"Gruunt! - said " + name + " the Rhino" <<endl;
-    }
+
 };
 
 #endif // RHINO_HPP
