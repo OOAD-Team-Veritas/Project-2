@@ -2,19 +2,19 @@
 #define WOLF_HPP
 
 #include "Canine.hpp"
+#include "WolfNoise.hpp"
 
 class Wolf : public Canine{
 public:
     Wolf(string inputName){
         name = inputName;
         this->animalType = "Wolf";
+        this->noiseBehavior = new WolfNoise();
     }
 
     ~Wolf(){};
 
-    void makeNoise(){
-        cout<<"Howwooooo! - said " + name + " the Wolf" <<endl;
-    }
+
 };
 
 #endif // WOLF_HPP

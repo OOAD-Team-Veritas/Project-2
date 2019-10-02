@@ -12,6 +12,7 @@
 #include "Feline.hpp"
 #include <random>
 #include <chrono>
+#include "CatNoise.hpp"
 
 class Cat : public Feline{
 
@@ -19,13 +20,12 @@ public:
     Cat(string inputName){
         name = inputName;
         animalType = "Cat";
+        this->noiseBehavior = new CatNoise();
     }
+
 
     ~Cat(){};
 
-    void makeNoise(){
-        randomBehavior();
-    }
 
 private:
     void randomBehavior(){
