@@ -3,7 +3,7 @@
 
 #include <string>
 #include <iostream>
-#include "RoamBehavior.cpp"
+#include "RoamBehavior.hpp"
 #include "NoiseBehavior.hpp"
 
 using namespace std;
@@ -11,8 +11,6 @@ using namespace std;
 class Animal{
 
 public:
-    RoamBehavior roamBehavior;
-
     Animal(string inputName){
         name = inputName;
     }
@@ -59,7 +57,7 @@ protected:
     //What the animal is doing right now (kind of like a state machine)
     string state;
     NoiseBehavior* noiseBehavior;
-
+    RoamBehavior* roamBehavior;
 };
 
 #endif // ANIMAL_HPP
