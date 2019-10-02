@@ -10,6 +10,9 @@
 #include "Rhino.hpp"
 #include "Zoo.h"
 #include "ZooKeeper.h"
+#include "ZooAnnouncer.hpp"
+#include "Observer.hpp"
+#include "Subject.hpp"
 #include <fstream>
 
 using namespace std;
@@ -47,6 +50,9 @@ int main()
 
     ZooKeeper griffin("Griffin Keyes", theOOPZoo);
 
+    ZooAnnouncer zooAnnouncer;
+    griffin.registerObserver(&zooAnnouncer);
+
     //Open the zoo!
     griffin.openZoo();
 
@@ -55,6 +61,8 @@ int main()
     griffin.feedAnimals();
     griffin.exerciseAnimals();
     griffin.closeZoo();
+
+    griffin.removeObserver(&zooAnnouncer);
 
     delete theOOPZoo;
 
