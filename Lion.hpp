@@ -3,6 +3,7 @@
 
 #include "Feline.hpp"
 #include "Prowl.hpp"
+#include "LionNoise.hpp"
 
 class Lion : public Feline{
 
@@ -11,13 +12,12 @@ public:
         name = inputName;
         animalType = "Lion";
         this->roamBehavior = new Prowl();
+        this->noiseBehavior = new LionNoise();
     }
 
     ~Lion(){};
 
-    void makeNoise(){
-        cout<<"Grraaaauuuu! - said " + name + " the Lion" <<endl;
-    }
+
 };
 
 #endif // LION_HPP

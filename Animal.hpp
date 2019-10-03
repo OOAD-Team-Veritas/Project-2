@@ -4,6 +4,7 @@
 #include <string>
 #include <iostream>
 #include "RoamBehavior.hpp"
+#include "NoiseBehavior.hpp"
 
 using namespace std;
 
@@ -42,11 +43,11 @@ public:
     void eat(){
         state = "eating";
         cout<<name << " the " << animalType << " is " <<state <<endl;
-
     }
 
-    //Pure virtual functions
-    virtual void makeNoise() = 0;
+    virtual void makeNoise(){
+        noiseBehavior->makeNoise(name);
+    }
 
     virtual void roam() {
         roamBehavior->roam(name, animalType);
@@ -58,6 +59,7 @@ protected:
     //What the animal is doing right now (kind of like a state machine)
     string state;
     RoamBehavior* roamBehavior;
+    NoiseBehavior* noiseBehavior;
 };
 
 #endif // ANIMAL_HPP

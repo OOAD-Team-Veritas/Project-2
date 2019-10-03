@@ -3,6 +3,7 @@
 
 #include "Canine.hpp"
 #include "Trott.hpp"
+#include "WolfNoise.hpp"
 
 class Wolf : public Canine{
 public:
@@ -10,13 +11,12 @@ public:
         name = inputName;
         this->animalType = "Wolf";
         this->roamBehavior = new Trott();
+        this->noiseBehavior = new WolfNoise();
     }
 
     ~Wolf(){};
 
-    void makeNoise(){
-        cout<<"Howwooooo! - said " + name + " the Wolf" <<endl;
-    }
+
 };
 
 #endif // WOLF_HPP
