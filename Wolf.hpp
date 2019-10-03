@@ -10,7 +10,6 @@ public:
     Wolf(string inputName){
         name = inputName;
         this->animalType = "Wolf";
-        this->roamBehavior = new Trott();
         this->noiseBehavior = new WolfNoise();
     }
 

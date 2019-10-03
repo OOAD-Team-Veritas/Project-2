@@ -2,6 +2,8 @@
 #define ZOO_H
 
 #include <vector>
+#include "Animal.hpp"
+using namespace std;
 
 class Zoo{
 public:

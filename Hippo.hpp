@@ -3,7 +3,6 @@
 
 #include "Pachyderm.hpp"
 #include "HippoNoise.hpp"
-#include "Lumber.hpp"
 
 class Hippo : public Pachyderm{
 
@@ -12,7 +11,6 @@ public:
         name = inputName;
         animalType = "Hippo";
         this->noiseBehavior = new HippoNoise();
-        this->roamBehavior = new Lumber();
     }
 
     ~Hippo(){};

@@ -1,4 +1,6 @@
+Hi, this is the Zoo Announcer.  The Zookeeper is about to open the zoo.
 Zookeeper Griffin Keyes is opening the Zoo!
+Hi, this is the Zoo Announcer.  The Zookeeper is about to wake up the animals.
 Cory the Cat is awake
 Cam the Cat is awake
 Terry the Tiger is awake
@@ -15,6 +17,7 @@ Dougie the Dog is awake
 Dante the Dog is awake
 Wolfgang the Wolf is awake
 Wren the Wolf is awake
+Hi, this is the Zoo Announcer.  The Zookeeper is about to do the roll call.
 Zookeeper Griffin Keyes is now doing roll call!
 Meaow! - said Cory the Cat
 Meaow! - said Cam the Cat
@@ -32,6 +35,7 @@ Woof! - said Dougie the Dog
 Woof! - said Dante the Dog
 Howwooooo! - said Wolfgang the Wolf
 Howwooooo! - said Wren the Wolf
+Hi, this is the Zoo Announcer.  The Zookeeper is about to feed the animals.
 Zookeeper Griffin Keyes is feeding Animals!
 Cory the Cat is eating
 Cam the Cat is eating
@@ -49,6 +53,7 @@ Dougie the Dog is eating
 Dante the Dog is eating
 Wolfgang the Wolf is eating
 Wren the Wolf is eating
+Hi, this is the Zoo Announcer.  The Zookeeper is about to exercise the animals.
 Zookeeper Griffin Keyes is exercising Animals!
 Cory the Cat is prowling
 Cam the Cat is prowling
@@ -56,16 +61,17 @@ Terry the Tiger is prowling
 Tim the Tiger is prowling
 Lenny the Lion is prowling
 Lisa the Lion is prowling
-Harry the Hippo is roaming
-Henrietta the Hippo is roaming
-Ryan the Rhino is roaming
-Rachel the Rhino is roaming
-Eli the Rhino is roaming
-Emmy the Rhino is roaming
+Harry the Hippo is lumbering
+Henrietta the Hippo is lumbering
+Ryan the Rhino is lumbering
+Rachel the Rhino is lumbering
+Eli the Rhino is lumbering
+Emmy the Rhino is lumbering
 Dougie the Dog is trotting
 Dante the Dog is trotting
 Wolfgang the Wolf is trotting
 Wren the Wolf is trotting
+Hi, this is the Zoo Announcer.  The Zookeeper is about to close the zoo.
 Zookeeper Griffin Keyes is closing the Zoo.
 Cory the Cat is sleeping
 Cam the Cat is sleeping

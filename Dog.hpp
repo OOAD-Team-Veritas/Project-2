@@ -11,7 +11,6 @@ public:
     Dog(string inputName){
         name = inputName;
         animalType = "Dog";
-        this->roamBehavior = new Trott();
         this->noiseBehavior = new DogNoise();
     }
 
