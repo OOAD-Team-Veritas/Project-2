@@ -45,19 +45,21 @@ public:
         cout<<name << " the " << animalType << " is " <<state <<endl;
     }
 
-    void makeNoise(){
+    virtual void makeNoise(){
         noiseBehavior->makeNoise(name);
     }
 
-    virtual void roam() = 0;
+    virtual void roam() {
+        roamBehavior->roam(name, animalType);
+    }
 
 protected:
     string name;
     string animalType;
     //What the animal is doing right now (kind of like a state machine)
     string state;
-    NoiseBehavior* noiseBehavior;
     RoamBehavior* roamBehavior;
+    NoiseBehavior* noiseBehavior;
 };
 
 #endif // ANIMAL_HPP

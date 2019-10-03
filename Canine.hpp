@@ -8,10 +8,6 @@ public:
 
     virtual ~Canine(){};
 
-    void roam(){
-        state = "trotting";
-        cout<<name + " the " + animalType + " is " + state <<endl;
-    }
 };
 
 #endif // CANINE_HPP

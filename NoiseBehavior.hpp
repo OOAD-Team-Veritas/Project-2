@@ -1,7 +1,7 @@
 #ifndef NOISEBEHAVIOR_HPP
 #define NOISEBEHAVIOR_HPP
 
-#include<string>
+#include <string>
 using namespace std;
 
 class NoiseBehavior{
