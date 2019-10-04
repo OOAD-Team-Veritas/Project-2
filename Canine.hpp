@@ -11,7 +11,9 @@ public:
 		this->roamBehavior = new Trott();
 	}
 
-    virtual ~Canine(){};
+    virtual ~Canine(){
+        delete roamBehavior;
+    }
 
 };
 

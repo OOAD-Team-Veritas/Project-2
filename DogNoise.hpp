@@ -3,6 +3,7 @@
 
 #include "NoiseBehavior.hpp"
 
+//Concrete Algorithm (Strategy pattern)
 class DogNoise : public NoiseBehavior{
 public:
 

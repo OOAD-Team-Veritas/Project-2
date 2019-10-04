@@ -13,7 +13,9 @@ public:
         this->noiseBehavior = new TigerNoise();
     }
 
-    ~Tiger(){};
+    ~Tiger(){
+        delete noiseBehavior;
+    }
 
 
 };

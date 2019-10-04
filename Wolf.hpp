@@ -13,7 +13,9 @@ public:
         this->noiseBehavior = new WolfNoise();
     }
 
-    ~Wolf(){};
+    ~Wolf(){
+        delete noiseBehavior;
+    }
 
 
 };

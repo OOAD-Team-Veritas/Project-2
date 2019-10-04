@@ -13,7 +13,9 @@ public:
         this->noiseBehavior = new LionNoise();
     }
 
-    ~Lion(){};
+    ~Lion(){
+        delete noiseBehavior;
+    }
 
 
 };

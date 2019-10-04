@@ -3,6 +3,7 @@
 
 #include "Observer.hpp"
 
+//Concrete Observer (Observer Pattern)
 class ZooAnnouncer : public Observer{
     public:
         void update(string event) override {

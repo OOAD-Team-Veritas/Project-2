@@ -14,10 +14,9 @@ public:
         this->noiseBehavior = new DogNoise();
     }
 
-    ~Dog(){};
-
-
-
+    ~Dog(){
+        delete noiseBehavior;
+    }
 };
 
 #endif // DOG_HPP

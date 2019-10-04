@@ -13,9 +13,9 @@ public:
         this->noiseBehavior = new ElephantNoise();
     }
 
-    ~Elephant(){};
-
-
+    ~Elephant(){
+        delete noiseBehavior;
+    }
 };
 
 #endif // ELEPHANT_HPP

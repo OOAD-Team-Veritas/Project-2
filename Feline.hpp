@@ -11,7 +11,9 @@ public:
 		this->roamBehavior = new Prowl();
 	}
 
-    virtual ~Feline(){};
+    virtual ~Feline(){
+        delete roamBehavior;
+    }
 
 };
 

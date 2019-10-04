@@ -13,7 +13,9 @@ public:
         this->noiseBehavior = new RhinoNoise();
     }
 
-    ~Rhino(){};
+    ~Rhino(){
+        delete noiseBehavior;
+    }
 
 
 };

@@ -11,8 +11,9 @@ public:
 		this->roamBehavior = new Lumber();
 	}
 
-    virtual ~Pachyderm(){};
-    
+    virtual ~Pachyderm(){
+        delete roamBehavior;
+    }
 };
 
 #endif // PACHYDERM_HPP

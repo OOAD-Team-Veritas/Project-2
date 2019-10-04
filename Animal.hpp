@@ -8,6 +8,7 @@
 
 using namespace std;
 
+//Host for strategy pattern (Noise Behavior & Roam Behavior)
 class Animal{
 
 public:
@@ -58,8 +59,8 @@ protected:
     string animalType;
     //What the animal is doing right now (kind of like a state machine)
     string state;
-    RoamBehavior* roamBehavior;
-    NoiseBehavior* noiseBehavior;
+    RoamBehavior* roamBehavior; //Strategy pattern
+    NoiseBehavior* noiseBehavior;   //Strategy pattern
 };
 
 #endif // ANIMAL_HPP

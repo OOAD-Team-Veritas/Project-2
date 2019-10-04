@@ -13,9 +13,9 @@ public:
         this->noiseBehavior = new HippoNoise();
     }
 
-    ~Hippo(){};
-
-
+    ~Hippo(){
+        delete noiseBehavior;
+    }
 };
 
 #endif // HIPPO_HPP

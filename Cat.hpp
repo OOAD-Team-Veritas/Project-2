@@ -24,7 +24,9 @@ public:
     }
 
 
-    ~Cat(){};
+    ~Cat(){
+        delete noiseBehavior;
+    }
 
 
 private:

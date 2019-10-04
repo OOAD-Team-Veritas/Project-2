@@ -17,7 +17,7 @@ public:
     }
 
     virtual void removeObserver(Observer *o) override {
-        for(int i = 0; i < observers.size(); i++){
+        for(unsigned int i = 0; i < observers.size(); i++){
             Observer* temp = observers[i];
             if(temp == o){
                 observers.erase(observers.begin() + i);
@@ -26,7 +26,7 @@ public:
     }
 
     virtual void notifyObservers() override {
-        for(int i = 0; i < observers.size(); i++){
+        for(unsigned int i = 0; i < observers.size(); i++){
             Observer* temp = observers[i];
             temp->update(event);
         }
@@ -99,9 +99,8 @@ public:
 private:
     string name;
     Zoo* workplace;
-    vector<Observer*> observers;
+    vector<Observer*> observers;    //Observer Pattern
     string event;
 };
-
 
 #endif // ZOOKEEPER_H

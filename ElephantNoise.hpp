@@ -1,6 +1,7 @@
 #ifndef ELEPHANTNOISE_HPP
 #define ELEPHANTNOISE_HPP
 
+//Concrete Algorithm (Strategy pattern)
 class ElephantNoise : public NoiseBehavior{
 public:
 

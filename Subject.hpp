@@ -3,6 +3,7 @@
 
 #include "Observer.hpp"
 
+//This is the subject for the Observer Pattern
 class Subject{
     public:
         virtual void registerObserver(Observer *o) = 0;
