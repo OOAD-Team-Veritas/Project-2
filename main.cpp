@@ -50,6 +50,7 @@ int main()
 
     ZooKeeper griffin("Griffin Keyes", theOOPZoo);
 
+    //Observer pattern for ZooAnnouncer
     ZooAnnouncer zooAnnouncer;
     griffin.registerObserver(&zooAnnouncer);
 

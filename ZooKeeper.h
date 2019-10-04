@@ -5,6 +5,17 @@
 #include "Observer.hpp"
 #include <vector>
 
+/*
+ * ZooKeeper responsibilities:
+ * 1 - Open Zoo
+ * 2 - Wake up animals
+ * 3 - Roll call animals
+ * 4 - Feed animals
+ * 5 - Excercise animals
+ * 6 - Shutdown Zoo
+ */
+
+ //ZooKeeper is the subject for observer pattern
 class ZooKeeper : public Subject{
 public:
     ZooKeeper(string name, Zoo* work){
@@ -25,12 +36,12 @@ public:
         }
     }
 
+    //Calls update in all Observers
     virtual void notifyObservers() override {
         for(unsigned int i = 0; i < observers.size(); i++){
             Observer* temp = observers[i];
             temp->update(event);
         }
-
     }
 
     void openZoo(){
@@ -38,6 +49,7 @@ public:
         notifyObservers();
 
         cout<<"Zookeeper " + name + " is opening the Zoo!\n";
+        //Open the Zoo
         workplace->openZoo();
     }
 
@@ -50,6 +62,7 @@ public:
             //We have an animal pointer remember...
             workplace->zooAnimals[i]->sleep();
         }
+        //Close Zoo!
         workplace->closeZoo();
     }
 
@@ -98,7 +111,7 @@ public:
 
 private:
     string name;
-    Zoo* workplace;
+    Zoo* workplace;                 //The Zoo that ZooKeeper works at
     vector<Observer*> observers;    //Observer Pattern
     string event;
 };

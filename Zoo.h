@@ -5,6 +5,7 @@
 #include "Animal.hpp"
 using namespace std;
 
+//Contains all the animals and is either open or close (zooOperations)
 class Zoo{
 public:
     vector<Animal*> zooAnimals;
@@ -16,21 +17,6 @@ public:
 
     ~Zoo(){
          for (auto p : zooAnimals){
-            if(p != nullptr)
-                delete p;
-        }
-    }
-
-    void printAllAnimals(){
-        for(unsigned int i = 0; i < zooAnimals.size(); i++){
-            Animal* temp = zooAnimals[i];
-            cout<<temp->getName() <<endl;
-        }
-    }
-
-
-    void deleteAllAnimals(){
-        for (auto p : zooAnimals){
             if(p != nullptr)
                 delete p;
         }
